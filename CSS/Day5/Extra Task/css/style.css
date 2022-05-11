@@ -1,0 +1,417 @@
+
+
+header{
+    width: 100%;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+
+header img{
+    width: 20%;
+}
+.search{
+    display: flex;
+  
+   
+
+}
+.search > input{
+    height: min-content;
+    border: none;
+    margin-top: 20px;
+    
+}
+
+
+nav ul li{
+    display:inline-block;
+
+    
+
+}
+nav{
+    background-color:yellow;
+    padding:5px;
+    display: flex;
+    justify-content: center;
+   
+
+}
+nav ul li a{
+    color:black;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+  .bannertext{
+      width: 25%;
+     
+  }
+  .section1{
+      display: flex;
+      background-image: url("../images/Lyle-apparel_homepage_v3-copy_02.jpg");
+      color: white;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 20px;
+      
+     
+
+  }
+  .section1 > img{
+      width: 25%;
+  }
+.section2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   height: fit-content;
+   margin-top: 2%;
+}
+  .box1{
+      flex: 30%;
+      max-width: 30%;
+      border: 2px solid gray;
+      margin: 10px;
+  }
+  .box1 > img{
+      width:50%
+  }
+  .section3{
+      background-image: url("../images/live_system_thank_you_02.jpg");
+     
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+
+  }
+
+  .item{
+      width: 20%;
+      max-width: 20%;
+      
+      border: 2px solid grey;
+      background-color:white;
+      margin-left: 20px;
+      padding: 5px;
+  }
+  .item img{
+      width: 100%;
+  }
+  .itemcontainer{
+      padding: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      border: 2px solid grey;
+     
+  }
+  .itemwithbutton{
+
+    width: 50%;
+  }
+  .itembutton{
+   width: 100%;
+   
+  
+  }
+.itembutton ul li{
+      display: inline-block;
+     background-color:lightgray;
+     padding: 10px;
+ 
+  }
+.itembutton ul li a{
+    text-decoration: none;
+    color: white;
+   
+    
+  }
+  .itembutton ul li:hover{
+    color: black;
+    background-color: yellow;
+}
+
+
+
+  .section4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   height:25%;
+   margin-top: 2%;
+ 
+}
+  .box2{
+     
+      max-width: 30%;
+      width: 30%;
+      
+      height: inherit;
+      margin: 10px;
+  }
+  .box2 > img{
+      width: 100%;
+     }
+     .box3{
+       
+        max-width: 30%;
+     
+        
+        margin: 10px;
+    }
+    .box3 > img{
+        width: 100%;
+       }
+.s{
+   background-image: url("../images/on_sale_img_23.jpg");
+   
+   text-align: center;
+   color: white;
+   padding-top: 20px;
+   padding-bottom: 35px;
+   width: 100%;
+   
+}
+#img7{
+    width: 25%;
+    float: right;
+}
+ button{
+    background-color: black;
+    color: yellow;
+    margin-bottom: 5px;
+        }
+.news1{
+    background-color:darkgray;
+    padding: 10px;
+}
+
+.section5{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.order{
+    
+    max-width: 20%;
+    display: flex;
+}
+.order img{
+    width: 30%;
+    height: 30%;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.order .con{
+    width: 50%;
+    padding: 5px;
+}
+
+footer{
+    background-image: url("../images/footer_bg.jpg");
+   
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.footerlist{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+   
+}
+.footerlist > ul{
+    margin: 40px;
+   
+}
+.footerlist > ul > li{
+    padding: 5px;
+    list-style: none;
+    
+}
+.mailbox{
+    background-color:darkgray;
+    width: fit-content;
+    padding: 20px;
+}
+.mailbox form input{
+margin-top:5px;
+width: 100%;
+}
+.mailbox form button{
+background-color: black;
+color: yellow;
+float: right;
+margin-top: 10px;
+padding: 5px;
+    }
+
+.social{
+    width:15%;
+  
+    margin-left: 10px;
+
+  
+}
+.social #facebook{
+    width: 15%;
+    
+    margin: 2px;
+    display: inline;
+}
+.social #logo{
+    display: block;
+    width: 100%;
+}
+.social #pay{
+    width: 30%;
+    display: inline;
+    margin: 2px;
+   
+}
+.social #master{
+    width: 30%;
+    display: inline;
+    margin: 2px;
+ 
+}
+.social #visa{
+    width: 30%;
+    display: inline;
+    margin: 2px;
+   
+}
+.social #post{
+    width: 30%;
+    display: inline;
+    margin: 2px;
+   
+}
+
+.last{
+    width: 100%;
+    background-color: yellow;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+@media only screen and (max-width:1500px){
+
+
+
+nav ul li{
+    display:block;
+
+}
+
+.itemwithbutton{
+
+    width: 100%;
+  }
+
+.box3{
+       
+    max-width: 40%;
+ 
+    
+  
+} 
+.box2{
+     
+    max-width: 40%;
+    width: 40%;
+
+} 
+.social{
+    width:40%;
+  
+ 
+
+  
+}
+.mailbox{
+   width: 40%;
+  
+}
+
+
+}
+@media only screen and (max-width:600px){
+    .section1 > img{
+        width: 100%;
+       
+        
+    }
+    .section1 .bannertext{
+        width: 100%;
+    }
+    .box1{
+        flex: 100%;
+        max-width: 100%;
+     
+    }
+    .itemwithbutton{
+
+        width: 100%;
+      }
+      .item{
+     
+        width: 40%;
+        max-width: 40%;
+    }
+    .box3{
+       
+        max-width: 100%;
+     
+        
+      
+    } 
+    .box2{
+         
+        max-width: 100%;
+        width: 100%;
+    
+    } 
+    .section4{
+        width: 100%;
+    }
+    .order{
+    
+        max-width: 100%;
+      
+    }
+    .social{
+        width:70%;
+      
+     
+    
+      
+    }
+    .mailbox{
+       width: 100%;
+       margin-bottom: 20px;
+      
+    }
+    .itembutton ul li{
+     margin: 5px;
+   
+    }
+
+}
+
+@media only screen and (max-width:400px){
+    .item{
+     
+        width: 100%;
+        max-width: 100%;
+        margin-left: 0px;
+    }
+
+
+}
+

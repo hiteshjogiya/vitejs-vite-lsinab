@@ -1,0 +1,29 @@
+p.dotted{
+border-style: dotted;
+}
+
+p.solid{
+    border-style: solid;
+}
+
+li[name=all]{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+h1,h2{
+    color:blue;
+}
+
+table, th, td{
+    border:1px solid black;
+}
+th{
+    background-color: black;
+    color: white;
+
+}
+td{
+    text-align: center;
+}
+

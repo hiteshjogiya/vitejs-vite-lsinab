@@ -1,0 +1,21 @@
+
+
+
+.container1{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.container1 > div{
+    color: white;
+    margin: 10px;
+    width: 100px;
+    background-color: blueviolet;
+    text-align: center;
+    line-height: 75px;
+}
+
+
+

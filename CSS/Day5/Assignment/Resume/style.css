@@ -1,0 +1,236 @@
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "aside main main main";
+}
+
+
+aside{
+  
+    background-color: blueviolet;
+    width: 25%;
+    height: 100%;
+    position: fixed;
+    grid-area: aside;
+   
+}
+    
+    
+
+main{
+    background-color:black;
+    width: 75%;
+    color: white;
+    position: absolute;
+    right: 0;
+    grid-area: main;
+}
+
+aside  img{
+    margin-top: 100px;
+    width: 50%;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+    
+   
+    
+}
+aside ul li a{
+    text-decoration: none;
+    color: white;
+  
+}
+aside ul li{
+    list-style: none;
+    padding: 10px;
+   
+    text-align: center;
+}
+aside ul{
+    
+    
+    
+    margin: auto;
+    margin-top: 20px;
+}
+
+
+.about{
+    padding: 15px;
+    padding-top: 25%;    
+    
+}
+
+
+.project1{
+   
+    
+    border: 2px solid gray;
+   
+    width:fit-content;
+    padding: 10px;
+   
+   
+    
+}
+.project2{
+   
+    
+    border: 2px solid gray;
+    width:fit-content;
+    padding: 10px;
+   
+   
+    
+}
+.btech{
+   
+    
+    border: 2px solid gray;
+    width:fit-content;
+    padding: 10px;
+   
+   
+    
+}
+.p{
+  padding: 30px;
+  
+
+ display: flex;
+ flex-wrap: wrap;
+justify-content: center;
+
+
+}
+
+.project{
+    padding-top: 25%;
+ }
+
+.edu{
+   padding-top: 25%;
+}
+.skill{
+    padding-top: 10%;
+   
+}
+.bar{
+    
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.vid{
+   
+   padding-top: 10%;
+}
+.bothvideo{
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 5%;
+}
+.bothvideo > video{
+    width: 50%;
+    padding:20px;
+}
+
+.a{
+   
+    
+    border: 2px solid gray;
+    width:fit-content;
+    padding: 10px;
+   
+   
+    
+}
+.awards{
+    padding: 30px;
+    
+  
+   display: flex;
+   flex-wrap: wrap;
+  justify-content: center;
+  
+  
+  }
+  .last{
+      margin-top: 25%;
+      margin-bottom: 25%;
+  }
+
+@media only screen and (max-width:1500px) {
+    .container{
+        display: grid;
+        height: 100vh;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+       
+        grid-template-areas: "aside aside aside aside" "main main main main" ;
+    }
+    
+    
+    aside{
+      
+        background-color: blueviolet;
+        
+        position:static;
+        grid-area: aside;
+        width: 100%;
+       
+    }
+    aside  img{
+        margin-top:none;
+        width:25%;
+        border-radius: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        }
+
+        
+        
+    
+    main{
+        background-color:black;
+        width: 100%;
+        color: white;
+        position:static;
+      
+        grid-area: main;
+    }
+    .project1{
+       width:100%;
+       }
+    .project2{
+       width:100%;
+        }
+
+        .bothvideo > video{
+            width: 100%;
+            
+        }
+        .btech{
+   
+    
+            border: 2px solid gray;
+            width:100%;
+            padding: 10px;
+           
+           
+            
+        }
+
+    
+    
+
+}

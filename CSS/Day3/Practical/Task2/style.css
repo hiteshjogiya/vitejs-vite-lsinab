@@ -1,0 +1,16 @@
+
+.container2 > div{
+    color: white;
+    margin: 10px;
+    width: 100px;
+    background-color: blueviolet;
+    text-align: center;
+    line-height: 75px;
+}
+
+.container2{
+    background-color: black;
+    display: flex;
+    flex-direction: row-reverse;
+   
+}

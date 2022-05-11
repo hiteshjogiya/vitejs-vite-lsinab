@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+    <head>
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../../../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="scss/font-awesome-4.7.0/css/font-awesome.min.css">
+        <script src="../../../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <title>blozen</title>
+    </head>
+
+    <body>
+       <nav class="navbar navbar-expand-sm navbar-dark bg-dark p-0">
+           <div class="container">
+               <a href="index.html" class="navbar-brand">blogen</a>
+               <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarnav"><span class="navbar-toggler-icon"></span></button>
+               <div class="collapse navbar-collapse" id="navbarnav">
+                   <ul class="navbar-nav">
+                       <li class="nav-item px-2">
+                           <a href="index.html" class="nav-link ">Dasboard</a>
+                       </li>
+                       <li class="nav-item px-2">
+                        <a href="posts.html" class="nav-link">Posts</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a href="categories.html" class="nav-link">Categories</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a href="users.html" class="nav-link">Users</a>
+                    </li>
+                   </ul>
+                   <ul class="navbar-nav ms-auto">
+                       <li class="nav-item dropdown">
+                           <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><em class="fa fa-user"></em> Welcome brad</a>
+                           <div class="dropdown-menu">
+                               <a href="profile.html" class="dropdown-item"><em class="fa fa-user-circle"></em> profile</a>
+                               <a href="setting.html" class="dropdown-item"><em class="fa fa-gear"></em> setting</a>
+                           </div>
+                        </li>
+                        <li class="nav-item">
+                            <a href="login.html" class="nav-link"><em class="fa fa-user-times"></em> Logout</a>
+                        </li>
+                   </ul>
+               </div>
+           </div>
+       </nav>
+       <header id="main-header" class="bg-primary py-2 text-white">
+           <div class="container">
+               <div class="row">
+                   <div class="col-md-6">
+                       <h1><em class="fa fa-user"></em> Edit Profile</h1>
+                   </div>
+               </div>
+           </div>
+       </header>
+       <!--ACTION-->
+       <section id="action" class="py-4 mb-4 bg-light">
+           <div class="container">
+                <div class="row">
+                    <div class="col-md-3 me-auto">
+                        <a href="index.html" class="btn btn-light w-100"><em class="fa fa-arrow-left"></em> Back to Dashboard</a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="#" class="btn btn-success w-100" data-bs-toggle="modal" data-bs-target="#passwordmodal"><em class="fa fa-lock"></em> Change Password</a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="#" class="btn btn-danger w-100"><em class="fa fa-remove"></em> Delete Account</a>
+                    </div>
+                </div>
+           </div>
+       </section>
+
+         <!--PROFILE-->
+         <section id="Profile">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9">
+                        <div class="card">
+                            <div class="card-header">
+                                <h4>Edit Profile</h4>
+                            </div>
+                            <div class="card-body">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="Name">Name</label>
+                                        <input type="text" class="form-control" value="Brad Traversy">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="Email">Email</label>
+                                        <input type="text" class="form-control" value="test@test.com">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="title">Bio</label>
+                                        <textarea name="editor1" class="form-control">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                             Quam sequi aliquam sapiente unde illo velit iure, dolores saepe laborum commodi eveniet quo recusandae
+                                              molestiae fugiat, voluptate facilis, fugit sed dicta.</textarea>
+                                    </div>
+                                </form>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <h3>Your Avtar</h3>
+                        <img src="img/avatar.png" alt="avtar" class="d-block img-fluid mb-3">
+                        <button class="btn btn-primary w-100 mb-2">Edit Image</button>
+                        <button class="btn btn-danger w-100">Delete Image</button>
+                    </div>
+                 
+                </div>
+            </div>
+
+        </section>
+        <footer id="main-footer" class="bg-dark text-white mt-5 p-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <p class="lead text-center">
+                            Copyright &copy; 2017 Blogen
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+            <!--USER PASSWORD-->
+            <div class="modal fade" id="passwordmodal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                     <div class="modal-header bg-primary text-white">
+                         <h5 class="modal-title">Change Password</h5>
+                         <button class="close" data-bs-dismiss="modal">&times;</button>
+                      </div>
+                      <div class="modal-body">
+                          <form action="#">
+                            <div class="form-group">
+                                <label for="title">Password</label>
+                                <input type="password" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="title">Confirm Password</label>
+                                <input type="password" class="form-control">
+                            </div>
+                          </form>
+                      </div>
+                      <div class="modal-footer">
+                          <button class="btn btn-secondary" data-bs-dismiss="modal">close</button>
+                          <button class="btn btn-primary" data-bs-dismiss="modal">Update Password</button>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        <script src="https://cdn.ckeditor.com/4.17.2/standard/ckeditor.js"></script>
+        <script>
+         CKEDITOR.replace( 'editor1' );
+ </script>
+    </body>
+</html>

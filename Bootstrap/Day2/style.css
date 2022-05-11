@@ -1,0 +1,14 @@
+
+@media (min-width: 992px) { 
+    #sidebar{
+        position: fixed;
+        height: 100%;
+        
+        
+    }
+    #main{
+        position: absolute;
+        right:0;
+
+    }
+ }

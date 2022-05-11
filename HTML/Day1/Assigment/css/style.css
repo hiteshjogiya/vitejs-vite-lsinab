@@ -1,0 +1,100 @@
+
+.inputfield{
+    color:aliceblue;
+    padding: 3px;
+}
+
+
+#luname{
+    display:block;
+    
+  
+
+   
+}
+#lpass{
+    display: block;
+
+  
+
+}
+
+.container1{
+    margin: auto;
+    width:300px;
+    height: fit-content;
+    background-color: black;
+    padding: 50px;
+    
+    
+}
+input[type=text]{
+    outline: 0;
+    border-width:0 0 2px;
+    border-color:blue;
+    margin:5px;
+    width:100%;
+ 
+    background: transparent;
+    color:white;
+}
+input[type=email]{
+    outline: 0;
+    border-width:0 0 2px;
+    border-color:blue;
+    margin:5px;
+    width:100%;
+ 
+    background: transparent;
+    color:white;
+}
+input[type=date]{
+    outline: 0;
+    border-width:0 0 2px;
+    border-color:blue;
+    margin:5px;
+    width:100%;
+    color-scheme: dark;
+    background: transparent;
+    color:white;
+}
+input[type=number]{
+    outline: 0;
+    border-width:0 0 2px;
+    border-color:blue;
+    margin:5px;
+    width:100%;
+ 
+    background: transparent;
+    color:white;
+}
+.gen{
+    color: aliceblue;
+}
+.loc{
+    color: aliceblue;
+    padding: 3px;
+    margin: 5px;
+}
+
+.title1{
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    padding: 20px;
+}
+#submit{
+    width:100%;
+    background-color: blue;
+    padding: 5px;
+    margin:20px 5px 5px 5px;
+    color:white;
+    border-radius: 20px;
+}
+#submit:hover{
+    background-color: green;
+}
+.forgot{
+    margin:25px 5px 5px 5px;
+    color:white;
+}

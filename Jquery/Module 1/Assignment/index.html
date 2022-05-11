@@ -1,0 +1,173 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="../../../../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>  
+      <title>Document</title>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            
+         $(".display > span").hide();
+         $('li').click(function(){
+            $(".display > span").hide();
+            $(".display > label").hide();
+             var country = this.id;
+             $(".display > span").each(function(index,value){
+                 
+                if(country=="PleaseSelect"){
+                    $(".display > label").show();
+                }
+                else if(country==value.id){
+                    $(".display > span[id="+value.id+"]").show();
+                }
+             })
+         })
+
+        })
+
+        
+
+       
+        
+    </script>
+    <style>
+            
+        
+        @media (min-width: 992px) { 
+            #sidebar{
+                position: fixed;
+                height: 100%;
+                margin-top: 70px;
+                
+                
+            }
+            #main{
+                position: absolute;
+                right:0;
+                margin-top: 100px;
+        
+            }
+          
+           
+         }
+            
+    </style>
+    <title>JavaScript index</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top  py-4">
+        <div class="container">
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarnav"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarnav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="../../../HTML/index.html" class="nav-link">HTML</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../../../CSS/index.html" class="nav-link">CSS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../../../Bootstrap-index.html" class="nav-link">Bootstrap</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../../../Tailwindcss/Tailwind-index.html" class="nav-link">Tailwindcss</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../../../JavaScript/JavaScript-index.html" class="nav-link">JavaScript</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../../Jquery-index.html" class="nav-link">Jquery</a>
+                    </li>
+
+                </ul>
+           </div>
+        </div>
+    </nav>
+    <!--SIDEBAR-->
+    <section>
+        <div class="row vh-100">
+            <div class="col d-none  col-md-2 d-md-block bg-info text-center pt-5 " id="sidebar">
+                <div class="dropdown">
+                    <button class="btn btn-dark dropdown-toggle my-2" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        Module 1
+                    </button>
+                    <ul class="dropdown-menu" area-labelledby="dropdownMenuButton1">
+                        <li class="dropdown-item">Practical
+                        <ul>
+                          <li><a href="../../Module-1/Practical/practical-1.html" >Practical-1</a></li>
+                          <li><a href="../../Module-1/Practical/practical-2.html" >Practical-2</a></li>
+                          <li><a href="../../Module-1/Practical/practical-3.html">Practical-3</a></li>
+                        </ul></li>
+                        <li class="dropdown-item">Assignment
+                            <ul>
+                              <li><a href="../../Module-1/Assignment/index.html">Assignment</a></li>
+                        
+                            </ul></li>
+                        
+                    </ul>
+                </div>
+                <div class="dropdown">
+                    <button class="btn btn-dark dropdown-toggle my-2" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        Module 2
+                    </button>
+                    <ul class="dropdown-menu" area-labelledby="dropdownMenuButton1">
+                        <li>Practical
+                          <ul>
+                            <li><a href="../../Module-2/Practical/practical-1.html" >Practical-1</a></li>
+                            <li><a href="../../Module-2/Practical/practical-2.html" >Practical-2</a></li>
+                           
+                          </ul>
+                        </li>
+                        <li>Assignment
+                            <ul>
+                              <li><a href="../../Module-2/Assignment/index.html">Assignment</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--MAIN-->
+            <div class="col col-lg-10 " id="main" style="margin-top: 100px;">
+                <div class="dropdown">
+                    <button class="btn btn-success dropdown-toggle" type="button" id="city" data-bs-toggle="dropdown" aria-expanded="false">Please Select</button>
+                    
+                        <ul class="dropdown-menu" area-labelledby="city">
+                            <li class="dropdown-item" id="PleaseSelect">Please Select</li>
+                            <li class="dropdown-item" id="India">India</li>
+                            <li class="dropdown-item" id="Uk">United Kingdom</li>
+                            <li class="dropdown-item" id="Japan">Japan</li>
+                            <li class="dropdown-item" id="US">US</li>
+                            <li class="dropdown-item" id="Germany">Germany</li>
+                        </ul>
+            
+                </div>
+                <div class="display d-flex flex-column">
+                    <label  id="India">India</label>
+                    <label  id="Uk">United Kingdom</label>
+                    <label  id="Japan">Japan</label>
+                    <label  id="US">US</label>
+                    <label  id="Germany">Germany</label>
+                </div>
+                <div class="display">
+                    <span  id="India">You have Selected:India</span>
+                    <span  id="Uk">You have Selected:United Kingdom</span>
+                    <span  id="Japan">You have Selected:Japan</span>
+                    <span  id="US">You have Selected:US</span>
+                    <span  id="Germany">You have Selected:Germany</span>
+                </div>
+            
+                
+              </div>
+        </div>
+    </section>
+</body>
+</html>
+
+

@@ -1,0 +1,52 @@
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 3fr;
+    grid-template-areas: 
+    "nav nav nav nav"
+    "aside main main main"
+  ;
+  }
+  
+
+  nav ul li{
+    display:inline-block;
+  
+    
+  
+  }
+  nav{
+    background-color:black;
+    grid-area: nav;
+    padding:5px;
+    display: flex;
+    justify-content: center;
+   
+  
+  }
+  nav ul li a{
+    color:white;
+    text-decoration: none;
+    margin-left: 5px;
+  }
+  aside{
+    background-color:blueviolet;
+   
+    font-weight: bold;
+   display: flex;
+   justify-content: center;
+    grid-area: aside;
+  }
+  main{
+    background-color: aqua;
+    grid-area: main;
+  }
+  a{
+    color: black;
+    font-weight: bold;
+     text-decoration: none;
+   }
+   a:hover{
+   color: blue;
+    }

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--<input type="text" id="input1">
+    <input type="text" id="input2">
+    <input type="text" id="input3">
+    <button type="button" onclick="sum()">submit</button>-->
+    <p id="result"></p>
+    <script>
+            var val1 = parseInt(prompt("Enter Number 1: "));
+            console.log(val1);
+            var val2 = parseInt(prompt("Enter Number 2: "));
+            console.log(val2);
+            var val3 = parseInt(prompt("Enter Number 3: "));
+            console.log(val3);
+            if(val1 > val2){
+                if(val1 > val3){
+                    document.write('Greater value is: '+val1);
+                }
+                else{
+                    document.write('Greater value is: '+val3);
+                }
+            }
+            else{
+                if(val2 > val3){
+                document.write('Greater value is: '+val2);
+                } 
+                else{
+                    document.write('Greater value is: '+val3);
+                 } 
+            }
+            var sum = 0;
+            if(val1 > 40){
+                sum+=val1;
+            }
+            if(val2 > 40){
+                sum+=val2;
+            }
+            if(val3 > 40){
+                sum+=val3;
+            }
+             document.write(" sum is: "+sum);
+    </script>
+</body>
+</html>

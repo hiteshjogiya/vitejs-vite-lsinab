@@ -1,0 +1,42 @@
+.container{
+    background-color:black;
+    height: fit-content;
+    width:fit-content;
+    padding: 20px;
+    margin: 20px;
+}
+.box{
+height: 150px;
+width: 150px;
+margin: 5px;
+background-color:cornflowerblue;
+display: inline-block;
+
+}
+
+#con1{
+    position:absolute;
+    top:5px;
+}
+#con2{
+    position:relative;
+    top:5px;
+    left: 63%;
+}
+
+
+#con3{
+    position:fixed;
+    right: 0;
+    bottom: 0;
+
+}
+
+.over{
+    height: 200px;
+    width: 300px;
+    overflow:scroll;
+    margin-top: 400px;
+    margin-left: 20px;
+}
+

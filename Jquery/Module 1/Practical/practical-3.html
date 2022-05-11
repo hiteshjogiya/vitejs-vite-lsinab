@@ -1,0 +1,182 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="../../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>  
+      <title>Document</title>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+         
+         $(".display > span").hide();
+         $('input[type="radio"]').click(function(){
+            $(".display > span").hide();
+             var radiovalue = $(this).val();
+             $(".display > span").each(function(index,value){
+                if(value.id==radiovalue){
+                    $(".display > span[name="+value.id+"]").show();
+                }
+             })
+         })
+
+        })
+
+        
+
+       
+        
+    </script>
+    <style>
+            
+        
+        @media (min-width: 992px) { 
+            #sidebar{
+                position: fixed;
+                height: 100%;
+                margin-top: 70px;
+                
+                
+            }
+            #main{
+                position: absolute;
+                right:0;
+                margin-top: 100px;
+        
+            }
+          
+           
+         }
+            
+    </style>
+    <title>JavaScript index</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top  py-4">
+        <div class="container">
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarnav"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarnav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="../../../HTML/index.html" class="nav-link">HTML</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../../../CSS/index.html" class="nav-link">CSS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../../../Bootstrap-index.html" class="nav-link">Bootstrap</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../../../Tailwindcss/Tailwind-index.html" class="nav-link">Tailwindcss</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../../../JavaScript/JavaScript-index.html" class="nav-link">JavaScript</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../../Jquery-index.html" class="nav-link">Jquery</a>
+                    </li>
+
+                </ul>
+           </div>
+        </div>
+    </nav>
+    <!--SIDEBAR-->
+    <section>
+        <div class="row vh-100">
+            <div class="col d-none  col-md-2 d-md-block bg-info text-center pt-5 " id="sidebar">
+                <div class="dropdown">
+                    <button class="btn btn-dark dropdown-toggle my-2" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        Module 1
+                    </button>
+                    <ul class="dropdown-menu" area-labelledby="dropdownMenuButton1">
+                        <li class="dropdown-item">Practical
+                        <ul>
+                          <li><a href="../../Module-1/Practical/practical-1.html" >Practical-1</a></li>
+                          <li><a href="../../Module-1/Practical/practical-2.html" >Practical-2</a></li>
+                          <li><a href="../../Module-1/Practical/practical-3.html">Practical-3</a></li>
+                        </ul></li>
+                        <li class="dropdown-item">Assignment
+                            <ul>
+                              <li><a href="../../Module-1/Assignment/index.html">Assignment</a></li>
+                        
+                            </ul></li>
+                        
+                    </ul>
+                </div>
+                <div class="dropdown">
+                    <button class="btn btn-dark dropdown-toggle my-2" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        Module 2
+                    </button>
+                    <ul class="dropdown-menu" area-labelledby="dropdownMenuButton1">
+                        <li>Practical
+                          <ul>
+                            <li><a href="../../Module-2/Practical/practical-1.html" >Practical-1</a></li>
+                            <li><a href="../../Module-2/Practical/practical-2.html" >Practical-2</a></li>
+                           
+                          </ul>
+                        </li>
+                        <li>Assignment
+                            <ul>
+                              <li><a href="../../Module-2/Assignment/index.html">Assignment</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--MAIN-->
+            <div class="col col-lg-10 " id="main" style="margin-top: 100px;">
+                <label>Please select your technology : </label>
+                <div class="d-flex flex-row">
+                    <div class="me-3">
+                        <input type="radio" id="PHP" class="form-check-control" name="tech" value="PHP">
+                        <label for="PHP" value="" class="form-check-label">PHP</label>
+                        
+                    </div>
+                    <div class="me-3">
+                        <input type="radio" id="ASP.NET" class="form-check-control" name="tech" value="ASPNET">
+                        <label for="ASP.NET" class="form-check-label">ASP.NET</label>
+                        
+                    </div>
+                    <div class="me-3">
+                        <input type="radio" id="JSP" class="form-check-control" name="tech" value="JSP">
+                        <label for="JSP" class="form-check-label">JSP</label>
+                        
+                    </div>
+                    <div class="me-3">
+                        <input type="radio" id="PERL" class="form-check-control" name="tech" value="PERL">
+                        <label for="PERL" class="form-check-label">PERL</label>
+                        
+                    </div>
+                    <div class="me-3">
+                        <input type="radio" id="Cold Fusion" class="form-check-control" name="tech" value="ColdFusion">
+                        <label for="Cold Fusion" class="form-check-label">Cold Fusion</label>
+                        
+                    </div>
+                    
+                    <div class="me-3">
+                        <input type="radio" id="Other" class="form-check-control" name="tech" value="other">
+                        <label for="Other" class="form-check-label">Other</label>
+                        
+                    </div>
+                </div>
+                <div class="display ">
+                    <span id="PHP"  name="PHP">You have Selected:PHP</span>
+                    <span id="ASPNET" name="ASPNET">You have Selected:ASP.NET</span>
+                    <span id="JSP" name="JSP">You have Selected:JSP</span>
+                    <span id="PERL" name="PERL">You have Selected:PERL</span>
+                    <span id="ColdFusion" name="ColdFusion">You have Selected:Cold Fusion</span>
+                    <span id="other" name="other">You have Selected:other</span>
+                </div>
+            
+                
+              </div>
+        </div>
+    </section>
+</body>
+</html>
+
+

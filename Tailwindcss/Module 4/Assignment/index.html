@@ -1,0 +1,1296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../output.css">
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+   
+    <title>Mini project</title>
+    <style>
+        @media  (min-width:992px){
+            #headerimg{
+                height: 500px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="hidden md:block fixed-top bg-white ">
+        <section>
+            <nav class="border pb-1" aria-label="Site menu">
+                <div class="flex flex-row md:mx-32 ">
+                    <img src="assests/img/header and nav/logo.png" alt="logo">
+                    <div id="navbarnav" class="flex flex-row pl-2">
+                        <ul class=" text-black flex flex-row w-fit bg-slate-300">
+                            <li class="p-2  bg-orange-400 text-white">
+                                <a href="#" class="nav-link  ">PERSONAL</a>
+                            </li>
+                            <li class=" p-2 ">
+                             <a href="#" class="nav-link ">NRI</a>
+                         </li>
+                         <li class=" p-2">
+                             <a href="#" class="nav-link ">BUSINESS</a>
+                         </li>
+                         <li class=" p-2">
+                             <a href="#" class="nav-link ">CORPORATE</a>
+                         </li>
+                        </ul>
+                       
+                    </div>
+                  <div class="ml-80">
+                    <ul class=" flex flex-row ">
+                        <li class=" align-self-center m-1 p-2">
+                            <img src="assests/img/header and nav/india.svg" alt="lndia" >
+                        </li>
+                       
+                        <li class="border-orange-400 border-2 py-2 px-1 rounded-full text-orange-400 hover:bg-orange-400 hover:text-white ">  
+                            <a href="#" class="" > PERSONAL</a>
+                           
+                         </li>
+                         <li class="bg-orange-400  w-24 text-center py-2 px-1 rounded-full text-white hover:bg-white hover:text-orange-400 hover:border-2 hover:border-orange-400" style="margin-left: -10px;">
+                             <a href="#" > LOGIN</a>
+                         </li>
+                         <li class="border-orange-400 border-2 ml-3 py-2 px-1 rounded-full text-orange-400 hover:bg-orange-400 hover:text-white">
+                            <a href="#"  id="user"> NEW USERS</a>
+                        </li>
+                        <li class="p-2 ">
+                            <img src="assests/img/header and nav/notification-animation.png" alt="notification">
+                        </li>
+                    </ul>
+                  </div>
+                </div>
+            </nav>
+        </section>
+        <!--SECOND NAVBAR-->
+        <section id="secondNav" class=" p-0   md:mx-32 pt-1 ">
+                <div class="grid grid-cols-2 ">
+                    <div class=" self-center ">
+                        <input type="text" class="border-2 w-3/4 rounded-full p-1" placeholder="Search for Products, Services.">
+                    </div>
+                    <div class="">
+                        <div class="w-75 flex flex-row  justify-center">
+                            <img src="assests/img/header and nav/doAnythingCampaign.svg" style="width: 100px;" alt="" class="px-2">
+                            <img src="assests/img/header and nav/imobile.svg" style="width: 100px;" alt="" class="px-2">
+                            <img src="assests/img/header and nav/digital-banking.svg" style="width: 100px;" alt="" class="px-2">
+                            <a href="#" class=" text-decoration-none px-2 self-center"> Help & Contact</a>
+                        
+                        </div>      
+                     </div>
+                </div>
+            
+        </section>
+       <section>
+        <nav class="bg-pink-100 " id="thirdnav" aria-label="third menu">
+                <div class="md:mx-32" id="navbarnav">
+                    <ul class=" flex flex-row p-2">
+                        <li class="flex flex-row mx-2" href="#collapse1" data-bs-toggle="collapse" data-bs-parent="#accordion">
+                            <img src="assests/img/header and nav/third/bank-icon-o.svg" alt="">
+                            <a href="#" class="ml-1">ACCOUNT</a>
+                        </li>
+                      
+                        <li class="flex flex-row mx-2" href="#collapse22" data-bs-toggle="collapse" data-bs-parent="#accordion">
+                        <img src="assests/img/header and nav/third/card-icon-o.svg" alt="">
+                         <a href="#" class="ml-1">CARDS</a>
+                     </li>
+                     <li class="flex flex-row mx-2" href="#collapse3" data-bs-toggle="collapse" data-bs-parent="#accordion">
+                        <img src="assests/img/header and nav/third/loan-icon-o.svg" alt="">
+                         <a href="#" class="ml-1">LOANS</a>
+                     </li>
+                     <li class="flex flex-row mx-2" href="#collapse4" data-bs-toggle="collapse" data-bs-parent="#accordion" >
+                        <img src="assests/img/header and nav/third/invest-icon-o.svg" alt="">
+                         <a href="#" class="ml-1">INVEST</a>
+                     </li>
+                     <li class="flex flex-row mx-2" href="#collapse5" data-bs-toggle="collapse" data-bs-parent="#accordion" >
+                        <img src="assests/img/header and nav/third/insure-icon-o.svg" alt="">
+                        <a href="#" class="ml-1">INSURE</a>
+                    </li>
+                    <li class="flex flex-row mx-2" href="#collapse6" data-bs-toggle="collapse" data-bs-parent="#accordion">
+                        <img src="assests/img/header and nav/third/pay-icon-o.svg" alt="">
+                        <a href="#" class="ml-1">PAY</a>
+                    </li>
+                    <li class="flex flex-row mx-2" href="#collapse7" data-bs-toggle="collapse" data-bs-parent="#accordion">
+                        <img src="assests/img/header and nav/third/offers_maroon.svg" alt="">
+                        <a href="#" class="ml-1">OFFER</a>
+                    </li>
+                    </ul>
+                </div>
+                
+            
+        </nav>
+        <div class="md:mx-32">
+            <div id="collapse1" class="collapse bg-light">
+                <div class="grid grid-cols-4 px-2 gap-1">
+                    <div class="col-span-1">
+                        <ul class="list-unstyled">
+                            <li class="my-2">SAVING ACCOUNT <em class="fa fa-arrow-right text-orange-400"></em></li>
+                            <li class="my-2">DEPOSITS <em class="fa fa-arrow-right text-orange-400"></em></li>
+                            <li class="my-2">FOREX <em class="fa fa-arrow-right text-orange-400"></em></li>
+                            <li class="my-2">WAYS TO BANK <em class="fa fa-arrow-right text-orange-400"></em></li>
+                            
+                        </ul>
+                    </div>
+                    <div class="col-span-3">
+                        <div class="grid grid-cols-3">
+                            <div class="h-full">
+                                <div class="card  h-full ">
+                                    <div class="card-body p-2">
+                                        <div class="card-title">INSTA SAVING ACCOUNT</div>
+                                        <ul>
+                                            <li>insta saving account</li>
+                                            <a href="#" class="text-decoration-none text-orange-400">know More <em class="fa fa-arrow-right"></em></a>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="h-full">
+                                <div class="card  h-full">
+                                    <div class="card-body p-2">
+                                        <div class="card-title">SAVING ACCOUNT</div>
+                                        <ul>
+                                            <li>regular saving account</li>
+                                            <li>salary account</li>
+                                            <li>Senior Club saving account</li>
+                                            <li>retire Happy saving account</li>
+                                            <a href="#" class="text-decoration-none text-orange-400">know More <em class="fa fa-arrow-right"></em></a>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="h-full">
+                                <div class="card  h-full">
+                                    <div class="card-body p-2">
+                                        <div class="card-title">PRIVILEGE SAVINGS ACCOUNT</div>
+                                        <ul>
+                                            <li>The one Saving Account</li>
+                                            <li>Gold Saving Account</li>
+                                            <li>titanium Saving Account</li>
+                                            <li>Salute Doctors Banking Solutions</li>
+                                            <a href="#" class="text-decoration-none text-orange-400">know More <em class="fa fa-arrow-right"></em></a>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-3 my-2">
+                            <div class="h-full">
+                                <div class="card  h-full">
+                                    <div class="card-body p-2">
+                                        <div class="card-title">INVESTMENT ACCOUNT</div>
+                                        <ul>
+                                            <li>Online Trading & Demat account</li>
+                                            <li>Demart account</li>
+                                            <li>NPS Plus saving account</li>
+                                            <li>HUF- Hindu undivided Family</li>
+                                            <li>investment & Tax Savings Account</li>
+                                            <a href="#" class="text-decoration-none text-orange-400">know More <em class="fa fa-arrow-right"></em></a>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="h-full ">
+                                <div class="card  h-full">
+                                    <div class="card-body p-2">
+                                        <div class="card-title">WOMEN SAVING ACCOUNT</div>
+                                        <ul>
+                                            <li>Advantage woman Aura saving account</li>
+                                            <li>women saving account</li>
+                                            <a href="#" class="text-decoration-none text-orange-400">know More <em class="fa fa-arrow-right"></em></a>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" ">
+                                <div class="card h-full">
+                                    <div class="card-body p-2">
+                                        <div class="card-title">FAMILY SAVING ACCOUNT</div>
+                                        <ul>
+                                            <li>family banking</li>
+                                            <li>Young Star saving account</li>
+                                            <li>smart Star saving account</li>
+                                            <a href="#" class="text-decoration-none text-orange-400">know More <em class="fa fa-arrow-right"></em></a>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+           </div>
+           <!--CARDS-->
+           <div class="md:mx-32 ">
+            <div id="collapse22" class="collapse bg-light">
+                <div class="grid grid-cols-4 px-2 gap-1">
+                    <div class="col-span-1">
+                        <ul class="list-unstyled">
+                            <li class="my-2">CREDIT CARDS <em class="fa fa-arrow-right text-orange-400"></em></li>
+                            <li class="my-2">DEBIT CARDS <em class="fa fa-arrow-right text-orange-400"></em></li>
+                            <li class="my-2">PREPAID/ FOREX / GIFT /FASTTAG CARDS <em class="fa fa-arrow-right text-orange-400"></em></li>
+                            <li class="my-2">COMMERCIAL CARDS<em class="fa fa-arrow-right text-orange-400"></em></li>
+                            
+                        </ul>
+                    </div>
+                    <div class="col-span-3">
+                        <div class="grid grid-cols-3">
+                            <div class=" ">
+                                <div class="card  h-full ">
+                                    <div class="card-body p-2">
+                                        <div class="card-title">INSTANT CREDIT CARD</div>
+                                        <ul>
+                                            <li>instant Credit Card</li>
+                                            <a href="#" class="text-decoration-none text-orange-400">know More <em class="fa fa-arrow-right"></em></a>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="">
+                                <div class="card  h-full">
+                                    <div class="card-body p-2">
+                                        <div class="card-title">SPECIAL CREDIT CARD</div>
+                                        <ul>
+                                            <li>Coral Credit Card</li>
+                                            <li>Rubyx credit card</li>
+                                            <li>Sapphiro Credit Card</li>
+                                            <li>Platinum Credit Card</li>
+                                            <li>Mine Credit Card</li>
+                                            <a href="#" class="text-decoration-none text-orange-400">know More <em class="fa fa-arrow-right"></em></a>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="">
+                                <div class="card  h-full"> 
+                                    <div class="card-body p-2">
+                                        <div class="card-title">CO-BRAND CREDIT CARD</div>
+                                        <ul>
+                                            <li>Makemytrip Credit Card</li>
+                                            <li>manchester united credit card</li>
+                                            <li>HPCL Credit Card</li>
+                                            <li>Amazon Pay Credit Card</li>
+                                            <a href="#" class="text-decoration-none text-orange-400">know More <em class="fa fa-arrow-right"></em></a>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-3 my-2">
+                            <div class="">
+                                <div class="card  h-full">
+                                    <div class="card-body p-2">
+                                        <div class="card-title">FEATURED CREDIT CARDS</div>
+                                        <ul>
+                                            <li>Expressions Credit Card</li>
+                                            <li>Emeraid credit card</li>
+                                            <li>Unifare Metro Credit Card</li>
+                                            <li>Credit Card against Fixed Deposit</li>
+                                            <li>NRI Credit Card</li>
+                                            <a href="#" class="text-decoration-none text-orange-400">know More <em class="fa fa-arrow-right"></em></a>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="">
+                                <div class="card  h-full">
+                                    <div class="card-body p-2">
+                                        <div class="card-title">EMI/LOAN ON CREDIT CARD</div>
+                                        <ul>
+                                            <li>EMI on Credit Card</li>
+                                            <li>Loan on Credit Card</li>
+                                            <a href="#" class="text-decoration-none text-orange-400">know More <em class="fa fa-arrow-right"></em></a>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" ">
+                                <div class="card h-full">
+                                    <div class="card-body p-2">
+                                        <div class="card-title">=STANDING INSTRUTION & RECURRING CHARGES</div>
+                                        <ul>
+                                            <li>Manage stading insructions</li>
+                                            <li>Frequently Asked Quetions</li>
+                                            <li>Mandate Hub User Guide</li>
+                                            <a href="#" class="text-decoration-none text-orange-400">know More <em class="fa fa-arrow-right"></em></a>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+           </div>
+           <!--LOANS-->
+           <div class=" mx-32">
+            <div id="collapse3" class="collapse bg-light">
+                <div class="grid grid-cols-4 px-2 gap-1">
+                    <div class="col-span-1">
+                        <ul class="list-unstyled">
+                            <li class="my-2">POULAR LOANS <em class="fa fa-arrow-right text-orange-400"></em></li>
+                            <li class="my-2">AGRI AND RURAL FINANCE <em class="fa fa-arrow-right text-orange-400"></em></li>
+                            <li class="my-2">COMMERCIAL BUSINESS LOANS <em class="fa fa-arrow-right text-orange-400"></em></li>
+                            
+                        </ul>
+                    </div>
+                    <div class="col-span-3">
+                        <div class="grid grid-cols-3">
+                            <div class="col-md-4 ">
+                                <div class="card  h-full ">
+                                    <div class="card-body p-2">
+                                        <div class="card-title">PERSONAL LOANS</div>
+                                        <ul>
+                                            <li>Personal loans</li>
+                                            <li>Personal Loan calculator</li>
+                                            <li>Personal Loan on credit Card</li>
+                                            <li>Flexicash(Overdraft Against Salary)</li>
+                                            <li>Business Loan</li>
+                                            <a href="#" class="text-decoration-none text-orange-400">know More <em class="fa fa-arrow-right"></em></a>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card  h-full">
+                                    <div class="card-body p-2">
+                                        <div class="card-title">HOME LOAN</div>
+                                        <ul>
+                                            <li>New Home loan</li>
+                                            <li>Home Loan-existing Customer</li>
+                                            <li>Home loan Calculator</li>
+                                            <li>Loan Against Property</li>
+                                            <li>Home Loan Balance transfer</li>
+                                            <li>Pradhan mantri Awas Yojana(PMAY)</li>
+                                            <a href="#" class="text-decoration-none text-orange-400">know More <em class="fa fa-arrow-right"></em></a>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card  h-full">
+                                    <div class="card-body p-2">
+                                        <div class="card-title">CAR/TWO-WHEELER LOANS</div>
+                                        <ul>
+                                            <li>New Car loan</li>
+                                            <li>Two-Wheeler loan</li>
+                                            <li>Pre Owned Used Car Loan</li>
+                                            <li>Loan against Car</li>
+                                            <a href="#" class="text-decoration-none text-orange-400">know More <em class="fa fa-arrow-right"></em></a>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-3 my-2">
+                            <div class="col-md-4">
+                                <div class="card  h-full">
+                                    <div class="card-body p-2">
+                                        <div class="card-title">LOAN AGAINST SECURITIES</div>
+                                        <ul>
+                                            <li>Loan Based on the value of your securities</li>
+                                            <a href="#" class="text-decoration-none text-orange-400">know More <em class="fa fa-arrow-right"></em></a>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 ">
+                                <div class="card  h-full">
+                                    <div class="card-body p-2">
+                                        <div class="card-title">OTHER LOANS</div>
+                                        <ul>
+                                            <li>Gold loan</li>
+                                            <li>Paylater</li>
+                                            <li>Consumer EMI</li>
+                                            <li>Education loan</li>
+                                            <li>Pradhan mantri Mudra yojana</li>
+                                            <a href="#" class="text-decoration-none text-orange-400">know More <em class="fa fa-arrow-right"></em></a>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 ">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+           </div>
+            <!--INVEST-->
+            <div class="mx-32 my-4">
+                <div id="collapse4" class="collapse bg-light">
+                    <div class="grid grid-cols-4 px-2 gap-1">
+                        <div class="col-span-1">
+                            <ul class="list-unstyled">
+                                <li class="my-2">GROW WEALTH <em class="fa fa-arrow-right text-orange-400"></em></li>
+                                
+                            </ul>
+                        </div>
+                        <div class="col-span-3">
+                            <div class="grid grid-cols-3">
+                                <div class="col-md-4 ">
+                                    <div class="card  h-full ">
+                                        <div class="card-body p-2">
+                                            <div class="card-title">FIXED DEPOSIT (FD)</div>
+                                            <ul>
+                                                <li>Fixed Deposit</li>
+                                                <li>FD Xtra</li>
+                                                <li>Tax Saving FD</li>
+                                                <li>Money Multiplier FD</li>
+                                                <li>FD with Monthly Income</li>
+                                                <a href="#" class="text-decoration-none text-orange-400">know More <em class="fa fa-arrow-right"></em></a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card  h-full">
+                                        <div class="card-body p-2">
+                                            <div class="card-title">RECURRING DEPOSIT (RD)</div>
+                                            <ul>
+                                                <li>Recurring Deposit</li>
+                                                <li>RD with Monthly income Scheme</li>
+                                                <a href="#" class="text-decoration-none text-orange-400">know More <em class="fa fa-arrow-right"></em></a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card  h-full">
+                                        <div class="card-body p-2">
+                                            <div class="card-title">IWISH GOAL BASED SAVINGS</div>
+                                            <ul>
+                                                <li>Deposit any amount any time with no penalty for missing any deposits</li>
+                                                
+                                                <a href="#" class="text-decoration-none text-orange-400">know More <em class="fa fa-arrow-right"></em></a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+        
+               </div>
+               <!--INSURE-->
+           <div class="mx-32 my-4 ">
+            <div id="collapse5" class="collapse bg-light">
+                <div class="grid grid-cols-4 px-2 gap-1">
+                    <div class="col-span-1">
+                        <ul class="list-unstyled">
+                            <li class="my-2">POULAR INSURANCE <em class="fa fa-arrow-right text-orange-400"></em></li>
+                            <li class="my-2">SOCIAL SECURITY SCHEMES <em class="fa fa-arrow-right text-orange-400"></em></li>
+                            
+                        </ul>
+                    </div>
+                    <div class="col-span-3">
+                        <div class="grid grid-cols-3">
+                            <div class="col-md-4 ">
+                                <div class="card  h-full ">
+                                    <div class="card-body p-2">
+                                        <div class="card-title">LIFE INSURANCE</div>
+                                        <ul>
+                                            <li>Life insurance</li>
+                                            <li>term Life Insurance</li>
+                                            <li>Cancer Cover</li>
+                                            <a href="#" class="text-decoration-none text-orange-400">know More <em class="fa fa-arrow-right"></em></a>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card  h-full">
+                                    <div class="card-body p-2">
+                                        <div class="card-title">HEALTH INSURANCE</div>
+                                        <ul>
+                                            <li>Health insurance</li>
+                                            <li>Group Health insurance</li>
+                                            <li>Health Top-up</li>
+                                            <li>Senior Citizen health Insurance</li>
+                                            <a href="#" class="text-decoration-none text-orange-400">know More <em class="fa fa-arrow-right"></em></a>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card  h-full">
+                                    <div class="card-body p-2">
+                                        <div class="card-title">VEHICAL INSURANCE</div>
+                                        <ul>
+                                            <li>Car Insurance</li>
+                                            <li>Two-Wheeler Insurance</li>
+                                            <a href="#" class="text-decoration-none text-orange-400">know More <em class="fa fa-arrow-right"></em></a>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-3 my-2">
+                            <div class="col-md-4">
+                                <div class="card  h-full">
+                                    <div class="card-body p-2">
+                                        <div class="card-title">TRAVEL INSURANCE</div>
+                                        <ul>
+                                            <li>Single trip travel Insurance</li>
+                                            <li>multi trip travel Insurance</li>
+                                            <a href="#" class="text-decoration-none text-orange-400">know More <em class="fa fa-arrow-right"></em></a>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 ">
+                                <div class="card  h-full">
+                                    <div class="card-body p-2">
+                                        <div class="card-title">RETIREMENT PLANNING</div>
+                                        <ul>
+                                            <li>Guaranteed Pension plan</li>
+                                            
+                                            <a href="#" class="text-decoration-none text-orange-400">know More <em class="fa fa-arrow-right"></em></a>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 ">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+           </div>
+              <!--PAY-->
+              <div class="mx-32 my-4 ">
+                <div id="collapse6" class="collapse bg-light">
+                    <div class="grid grid-cols-4 px-2 gap-1">
+                        <div class="col-span-1">
+                            <ul class="list-unstyled">
+                                <li class="my-2">MONEY TRANSFER <em class="fa fa-arrow-right text-orange-400"></em></li>
+                                <li class="my-2">UTILITY PAYMENT <em class="fa fa-arrow-right text-orange-400"></em></li>
+                                <li class="my-2">RECHARGE <em class="fa fa-arrow-right text-orange-400"></em></li>
+                                <li class="my-2">LOAN/CARD PAYMENT <em class="fa fa-arrow-right text-orange-400"></em></li>
+                                <li class="my-2">PAYMENT SERVICE <em class="fa fa-arrow-right text-orange-400"></em></li>
+                                <li class="my-2">TAX & GST <em class="fa fa-arrow-right text-orange-400"></em></li>
+                                
+                            </ul>
+                        </div>
+                        <div class="col-span-3">
+                            <div class="grid grid-cols-3">
+                                <div class="col-md-4 ">
+                                    <div class="card  h-full ">
+                                        <div class="card-body p-2">
+                                            <div class="card-title">NEFT</div>
+                                            <ul>
+                                                <li>Transfer Money to any other bank account with internet Banking or mobile app</li>
+                                                
+                                                <a href="#" class="text-decoration-none text-orange-400">know More <em class="fa fa-arrow-right"></em></a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card  h-full">
+                                        <div class="card-body p-2">
+                                            <div class="card-title">IMPS</div>
+                                            <ul>
+                                                <li>Transfer funds instantly, 24X7 (including holidays) with IMPS</li>
+                                                <a href="#" class="text-decoration-none text-orange-400">know More <em class="fa fa-arrow-right"></em></a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card  h-full">
+                                        <div class="card-body p-2">
+                                            <div class="card-title">UPI</div>
+                                            <ul>
+                                                <li>Pay friend and merchants using their phone number,QR Code or UPI ID</li>
+                                                <a href="#" class="text-decoration-none text-orange-400">know More <em class="fa fa-arrow-right"></em></a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid grid-cols-3 my-2">
+                                <div class="col-md-4">
+                                    <div class="card  h-full">
+                                        <div class="card-body p-2">
+                                            <div class="card-title">FOREIGN TRANSFER</div>
+                                            <ul>
+                                                <li>remit Money through wire transfer or demand draft in 19 different currencies</li>
+                                                <a href="#" class="text-decoration-none text-orange-400">know More <em class="fa fa-arrow-right"></em></a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 ">
+                                    <div class="card  h-full">
+                                        <div class="card-body p-2">
+                                            <div class="card-title">ICIC BANK PAY</div>
+                                            <ul>
+                                                <li>Pay your friends or contacts with just a Tweet</li>
+                                                
+                                                <a href="#" class="text-decoration-none text-orange-400">know More <em class="fa fa-arrow-right"></em></a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 ">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+               </div>
+               <!--OFFERS-->
+              <div class="mx-32 my-4">
+                <div id="collapse7" class="collapse bg-light">
+                    <div class="grid grid-cols-4 px-2 gap-1">
+                        <div class="col-span-1">
+                            <ul class="list-unstyled">
+                                <li class="my-2">DEALS AND MORE <em class="fa fa-arrow-right text-orange-400"></em></li>
+                                
+                            </ul>
+                        </div>
+                        <div class="col-span-3">
+                            <div class="grid grid-cols-3">
+                                <div class="col-md-4 ">
+                                    <div class="card  h-full ">
+                                        <div class="card-body p-2">
+                                            <div class="card-title">OFFERS</div>
+                                            <ul>
+                                                <li>Get exclusive deals and dicounts on thousands of brands</li>
+                                                
+                                                <a href="#" class="text-decoration-none text-orange-400">know More <em class="fa fa-arrow-right"></em></a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card  h-full">
+                                        <div class="card-body p-2">
+                                            <div class="card-title">PERSONALISED PRODUCT OFFERS</div>
+                                            <ul>
+                                                <li>Authenticate Yourself to view and apply for your personalised product offers</li>
+                                                <a href="#" class="text-decoration-none text-orange-400">know More <em class="fa fa-arrow-right"></em></a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card  h-full">
+                                        <div class="card-body p-2">
+                                            <div class="card-title">OFFERS NEAR YOU</div>
+                                            <ul>
+                                                <li>Get discounts on dining, shoping travel, etc. at places near you</li>
+                                                <a href="#" class="text-decoration-none text-orange-400">know More <em class="fa fa-arrow-right"></em></a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid grid-cols-3 my-2">
+                                <div class="col-md-4">
+                                    <div class="card  h-full">
+                                        <div class="card-body p-2">
+                                            <div class="card-title">CASHBACK DEALS</div>
+                                            <ul>
+                                                <li>Get assured cashback on electronics. travel. food & groceries,a nd much more</li>
+                                                <a href="#" class="text-decoration-none text-orange-400">know More <em class="fa fa-arrow-right"></em></a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 ">
+                                    <div class="card  h-full">
+                                        <div class="card-body p-2">
+                                            <div class="card-title">COMPARE AND FLY</div>
+                                            <ul>
+                                                <li>Get the best deals on airfare so you can spend more at your destination </li>
+                                                
+                                                <a href="#" class="text-decoration-none text-orange-400">know More <em class="fa fa-arrow-right"></em></a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 ">
+                                    <div class="card  h-full">
+                                        <div class="card-body p-2">
+                                            <div class="card-title">COMPARE AND BUY</div>
+                                            <ul>
+                                                <li>Compare Prices,Features and more before buying and get the best value for your money </li>
+                                                
+                                                <a href="#" class="text-decoration-none text-orange-400">know More <em class="fa fa-arrow-right"></em></a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 ">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+               </div>
+       </section>
+       
+    </div>
+    <!--CAROUSAL-->
+<header>
+    <div id="carouselExampleIndicators" class="carousel slide relative md:mt-32" data-bs-ride="carousel">
+        <div class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner relative w-full overflow-hidden">
+          <div class="carousel-item active float-left w-full">
+            <img
+              src="assests/img/header and nav/view-virtual-credit-card-d-w7.gif"
+              class="block w-full "
+              alt="Wild Landscape"
+              id="headerimg"
+            />
+          </div>
+          <div class="carousel-item float-left w-full">
+            <img
+              src="assests/img/header and nav/dream-about-it-own-d.jpg"
+              class="block w-full"
+              alt="Camera"
+              id="headerimg"
+            />
+          </div>
+          <div class="carousel-item float-left w-full">
+            <img
+              src="assests/img/header and nav/CC_HP_OP_d.jpg"
+              class="block w-full"
+              alt="Exotic Fruits"
+              id="headerimg"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!--CARDS-->
+      <div class="md:mx-32 md:-mt-72 " id="overheader" >
+        <div class="grid md:grid-cols-4">
+            <div class="md:col-span-2">
+                <div class="card p-5">
+                    <div class="card-body">
+                        <div class="grid md:grid-cols-2">
+                            <div class="">
+                                <div class="flex flex-row">
+                                    <img src="assests/img/header and nav/card-icon-o.svg" alt="card-icon" class="m-2" id="smallimg">
+                                    <div>
+                                        <p class="fs-6 m-0 p-0">Saving account</p>
+                                        <p class="text-muted m-0 p-0">Open insta save account in 4 minute</p>
+                                        <a href="#" class="text-decoration-none text-orange-400">Open Now <em class="fa fa-arrow-right"></em></a>
+                                    </div>
+                                    
+                                </div>
+
+                            </div>
+                            <div class="">
+                                <div class="flex flex-row">
+                                    <img src="assests/img/header and nav/bank-icon-o.svg" alt="card-icon" class="m-2" id="smallimg">
+                                    <div>
+                                        <p class="card-text m-0 p-0">Home Loan</p>
+                                        <p class="text-muted m-0 p-0">Instant sanction starting at just 6.70% p.a</p>
+                                        <a href="#" class="text-decoration-none text-orange-400">AVAIL HOME LOAN,NOW <em class="fa fa-arrow-right"></em></a>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid md:grid-cols-2">
+                            <div class="">
+                                <div class="flex flex-row">
+                                    <img src="assests/img/header and nav/card-icon-o.svg" alt="card-icon" class="m-2" id="smallimg">
+                                    <div>
+                                        <p class="text-sm m-0 p-0">Credit Card</p>
+                                        <p class="text-muted m-0 p-0">Get Right Card for you</p>
+                                        <a href="#" class="text-decoration-none text-orange-400">GET CREDIT CARD,INSTANTLY <em class="fa fa-arrow-right"></em></a>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="p-2">
+                                <div class="flex flex-row">
+                                    <img src="assests/img/header and nav/insure-icon-o.svg" alt="card-icon" class="m-2" id="smallimg">
+                                    <div>
+                                        <p class="card-text m-0 p-0">Personal loan</p>
+                                        <p class="text-muted m-0 p-0">For all you needs, up to 25 Lakh</p>
+                                        <a href="#" class="text-decoration-none text-orange-400">AVAIL PERSONAL LOAN,NOW <em class="fa fa-arrow-right"></em></a>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="md:col-span-1 ">
+              <div class="card p-3 h-full">
+                  <div class="card-body">
+                      <div class="card-title fw-bold">
+                         Grow Your investment
+                      </div>
+                      <div class="grid grid-cols-2 gap-2 pt-2 items-center">
+                        <div class="col-6 text-center">
+                            <img src="assests/img/header and nav/Grow/cc-icon.png" alt="cc" class="mx-auto">
+                            <p>Fixed Deposit</p>
+                        </div>
+                        <div class="col-6 text-center">
+                            <img src="assests/img/header and nav/Grow/mf-icon.png" alt="cc" class="mx-auto">
+                            <p>Mutual Fund</p>
+                        </div>
+                      </div>
+                      <div class="grid grid-cols-2 gap-2">
+                        <div class="col-6 text-center">
+                            <img src="assests/img/header and nav/Grow/iWish-icon.png" alt="cc" class="mx-auto">
+                            <p>iWish</p>
+                        </div>
+                        <div class="col-6 text-center">
+                            <img src="assests/img/header and nav/Grow/rd-icon.png" alt="cc" class="mx-auto">
+                            <p>Recurring deposit</p>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="md:col-span-1">
+              <div class="card p-4 h-full" id="qr">
+                  <div class="card-body">
+                      <div class="card-title">
+                        iMobile - Pay
+                      </div>
+                      <div class="card-text">
+                          <p>An app that provides payments and banking services to customers of any bank.</p>
+                            <div class="flex flex-row">
+                                <div>
+                                    104M+ Downloads
+                                    Best Banking Experience
+                                </div>
+                                <img src="assests/img/header and nav/Grow/ipay-qrcode.png" alt="ipay" class="img-fluid" style="height: 80px;width: 80px;">
+                            </div>
+                            <a href="#" class="text-orange-400">know More <em class="fa fa-arrow-right"></em></a>
+                            
+                      </div>
+                  </div>
+              </div>
+          </div>
+          
+        </div>
+      </div>
+</header>
+ <!--CREDIT CARD-->
+ <section id="creditcard " class="bg-pink-100">
+    <div class="md:mx-32 text-center ">
+            <button href="#" class="col bg-orange-400 p-2 text-white">FIND THE RIGHT PRODUCT FOR YOU</button>
+            <button href="#" class="col bg-slate-300 p-2">LIFE STAGE SOLUTION</button>        
+    </div>
+    <div class="md:mx-auto my-3 md:w-1/2 ">
+        <div class="grid md:grid-cols-12 mx-auto gap-3" id="intrest">
+            <div class="md:col-span-3">i am intrested in: </div>
+            <div class="md:col-span-3 ">
+                <select name="" id="selectcard" class="w-full border-orange-400 border ">
+                    <option>cards</option>
+                    <option>cards</option>
+                    <option>cards</option>
+                </select>
+            </div>
+            <div class="md:col-span-2">for</div>    
+            <div class="md:col-span-4">
+                <select name="" id="selectcard" class="w-full border-orange-400 border ">
+                    <option>cards</option>
+                    <option>cards</option>
+                    <option>cards</option>
+                </select>
+            </div>
+        </div>    
+        
+
+    </div>
+    <div class="md:mx-32 bg-white  rounded-3  ">
+        <div class="grid md:grid-cols-3">
+            <div class="md:col-span-1">
+                <img src="assests/img/section/cc-1.jpg" alt="" class="img-fluid w-full">
+            </div>
+            <div class=" w-fit md:col-span-2 ">
+                <div class="p-5 mt-5">
+                    <div>
+                        <button class="bg-orange-400 text-white p-2">LIFESTYLE</button>
+                        <button class="bg-slate-300 p-2">TRAVEL</button>
+                        <button class="bg-slate-300 p-2">SPORT</button>
+                    </div>
+                    <div>
+                        <p> Your net annual income(in lakhs)</p>
+                        <div class="flex">
+                            <div class="border border-orange-400 w-20 text-center">2.5</div>
+                            <div class="border border-orange-400 w-20 text-center">5</div>
+                            <div class="border border-orange-400 w-20 text-center">10</div>
+                            <div class="border border-orange-400 w-20 text-center">15</div>
+                        </div>
+                    </div>
+                    <div>
+                        <h1>Coral Credit Card</h1>
+                        <ul>
+                            <li>joining fee 500 + GST</li>
+                            <li>Earn up to full00 addition reward point</li>
+                            <li>Buy 1,Get 1 movie ticket free at Bookmyshow</li>
+                            <li>One Complimantory railway lounge <span class="md:inline block">visit per quater</span> </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <button class="btn btn-orantext-orange-400 rounded-pill">APPLY NOW</button>
+                        <a href="#" class=" text-orange-400 text-decoration-none mx-2">KNOW MORE <em class="fa fa-arrow-right"></em></a>
+                    </div>
+                    <div id="callback" class="row px-5">
+                        <p class="col-md-4">Get a Call Back to Know Best <span class="md:inline block">offer on Credit Card</span> </p>
+                        <input class="col-md-6" type="text" id="entername" placeholder="Enter Your first name">
+                    </div>
+                </div>
+            </div>
+               
+        </div>
+
+    </div>
+</section>
+<!--CHARGES-->
+<section>
+    <img src="assests/img/section/Capture.PNG" alt="capture" class="img-fluid " >
+</section>
+<!--DIGITAL bANKING-->
+<section>
+    <div class="md:mx-32 w-full my-5 mx-5">
+        <div class="grid md:grid-cols-2">
+            <div class="">
+                <h1>DIGITAL BANKING</h1>
+                
+                <div class="mt-5">
+                    <a href="#" class=" border border-orange-400 px-3 py-2 rounded-full mr-5 hover:bg-orange-400 hover:text-white">Mobile Banking</a>
+                    <a href="#" class=" border border-orange-400 px-3 py-2 rounded-full hover:bg-orange-400 hover:text-white">Net Banking</a>
+                </div>
+                <div class="mt-10 ">
+                    <a href="#" class=" border border-orange-400 px-3 py-2 rounded-full hover:bg-orange-400 hover:text-white">Whatsapp Banking</a>
+                </div>
+                <div class="mt-10">
+                    <a href="#" class=" border text-white bg-orange-400 px-3 py-2 rounded-full hover:bg-white hover:text-orange-400 hover:border-orange-400">Explore Digital Banking</a>
+                </div>
+            </div>
+            <div class="w-1/2 md:w-1/2">
+                <div id="carouselExampleSlidesOnly" class="carousel slide relative" data-bs-ride="carousel">
+                    <div class="carousel-inner relative w-full overflow-hidden">
+                      <div class="carousel-item active relative float-left w-full">
+                        <img
+                          src="assests/img/section/mobile-banking.png"
+                          class="block w-full"
+                          alt="Wild Landscape"
+                        />
+                      </div>
+                      <div class="carousel-item relative float-left w-full">
+                        <img
+                          src="assests/img/section/net-banking.png"
+                          class="block w-full"
+                          alt="Camera"
+                        />
+                      </div>
+                      <div class="carousel-item relative float-left w-full">
+                        <img
+                          src="assests/img/section/whatsApp-banking.png"
+                          class="block w-full"
+                          alt="Exotic Fruits"
+                        />
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+</section>
+  <!--SECURITY-->
+  <section id="security" class="bg-pink-full">
+    <div class="md:mx-32 p-5 mx-3 ">
+        <h1 class="font-bold">WE TAKE YOUR SECURITY </h1>
+        <h2>SERIOUSLY!</h2>
+        <div class="grid md:grid-cols-4 p-2 text-center">
+            <div class="col-sm-12 text-center col-md-3 border-none border-md-end border-dark">Peace of mind for You as we have the Most Advance Technology & Protection</div>
+            <div class="col-sm-12 text-center col-md-3 p-2 border-none border-md-end border-dark">2 Factor I-Safe Authentication</div>
+            <div class="col-sm-12 text-center col-md-3 p-2 border-none border-md-end border-dark">End-to-end 256bit Encryption</div>
+            <div class="col-sm-12 text-center col-md-3 p-2">We Make you feel Special</div>
+        </div>
+    </div>
+
+</section>
+<div id="notice" class="text-center py-3 bg-indigo-700">
+    <div class="md:mx-32">
+        <a href="#" class="text-white text-decoration-none px-2">Important Notice: Resolution Framework 2.0 as per RBI Guidelines for COVID-19 related stress</a>
+    </div>
+</div>
+  <!--OFFER-->
+  <section id="Offer" class="py-5 ">
+    <div class="text-center my-5">
+        <p class="text-orange-400">......TRENDING DEALS......</p>
+        <h2><span class="font-bold">GREAT OFFERS FOR</span>  GREAT EXPERIENCE</h2>
+    </div>
+    <div id="offermain" class="pb-3 bg-pink-100">
+        <div class="text-center">
+            <button href="" class="text-white py-2 px-3 bg-orange-400 ">NEARBY OFFERS</button>
+            <button href="" class="bg-slate-200 py-2 px-3" >COMPARE & BUY</button>
+        </div>
+        <div class="clearfix py-3" >
+            <select name="city" id="city" class="float-right mr-48 bg-transparent border-b-2 border-black">
+            <option value="">Mumbai</option>
+            <option value="">Delhi</option>
+            <option value="">Chennai</option>
+            <option value="">Ahmedabad</option>
+            <option value="">Banglore</option>
+        </select>
+        </div>
+        
+        <div class="card rounded-3 mx-auto p-5 m-2 md:w-1/4 transition ease-out duration-200 hover:scale-95 transform " id="offercard">
+            <div class="card-body p-4 ">
+                <img src="assests/img/section/99_Panckes.png" alt="99">
+                <div class="card-title">
+                    <h3 class="text-orange-400">15% off</h3>
+                    <p>on total bill</p>
+                </div>
+                <div class="card-text">
+                    2ND Floor, Food Court, Inerbit Mall, Malad West, Mumbai
+                </div>
+                <div class="my-4">
+                    <button href="#" type="button" class="text-white py-2 px-3 bg-orange-400 rounded-full">GET DIRECTION</button>
+                </div>
+            </div>
+        </div>
+        <div class="text-center my-3">
+            <button href="#" type="button" class="text-white py-2 px-3 bg-orange-400 rounded-full">VIEW ALL OFFERS</button>
+        </div>
+    </div>
+    
+</section>
+ <!--BLOG-->
+ <section id="blog">
+    <div class=" text-center py-5">
+        <p class="text-orange-400">..........BLOG..........</p>
+        <p class="text-3xl"><span class="text-bold">MANAGE YOUR FINANCE</span> BETTER</p>
+    </div>
+    <div class="md:mx-32">
+        <div class="grid md:grid-cols-3 gap-3">
+            
+                <div class="card h-full rounded-3 md:w-3/4 w-full transition ease-out duration-200 hover:scale-95 transform">
+                    <img src="assests/img/section/blog-1.jpg" alt="99" class="bg-cover w-full">
+                    <div class="card-body p-3">
+                        
+                        <div class="card-text">
+                            <p>Home Loan</p>
+                        </div>
+                        <div class="card-text">
+                            is is Possible to get Home loan Without Property Documents?
+                        </div>  
+                    </div>
+                </div>
+           
+            <div class="">
+                <div class="card h-full md:w-3/4 w-full rounded-3 transition ease-out duration-200 hover:scale-95 transform">
+                    <img src="assests/img/section/blog-2.jpg" alt="99" class="bg-cover w-full">
+                    <div class="card-body p-3">
+                        
+                        <div class="card-text">
+                            <p>Home Loan</p>
+                        </div>
+                        <div class="card-text">
+                            4 tips that can help if you need higher loan amount
+                        </div>  
+                    </div>
+                </div>
+            </div>
+            <div class=" ">
+                <div class="card h-full md:w-3/4 w-full rounded-3 transition ease-out duration-200 hover:scale-95 transform">
+                    <img src="assests/img/section/blog-3.jpg" alt="99" class="bg-cover w-full">
+                    <div class="card-body p-3">
+                        
+                        <div class="card-text">
+                            <p>Home Loan</p>
+                        </div>
+                        <div class="card-text">
+                            am i looking to purchase a property in the right area?
+                        </div>  
+                    </div>
+                </div>
+            </div>
+          
+        </div>
+        <div class="text-center my-3">
+            <button href="#" type="button" class=" text-white py-2 px-3 bg-orange-400 rounded-full">VIEW ALL BLOGS</button>
+        </div>
+
+
+    </div>
+</section>
+<!--FOOTER-->
+<footer>
+    <div class="bg-orange-400 text-white">
+      <div class="md:mx-32 p-4">
+          <div class="grid md:grid-cols-6">
+              <div class="col-sm-12 text-center col-md-2">FIND ATM/BRANCH</div>
+              <div class="col-sm-12 text-center col-md-2">REPORT UNAUTHORIZED <br>TRANSACTION</div>
+              <div class="col-sm-12 text-center col-md-2">DOWNLOAD FORMS</div>
+              <div class="col-sm-12 text-center col-md-2">FAQS</div>
+              <div class="col-sm-12 text-center col-md-2">GET IN TOUCH</div>
+              <div class="col-sm-12 text-center col-md-2">GET HELP</div>
+          </div>
+          
+      </div>
+    </div>
+    <div class="bg-black text-white p-5">
+        <div class="md:mx-32">
+            <div class="grid md:grid-cols-5">
+                <div class="col hidden md:block">
+                    <ul class="list-unstyled">
+                        <li>EXPLORE</li> 
+                        <li class="text-gray-400">Investor Relations </li>
+                        <li class="text-gray-400">Regulatory Disclosure Section</li>
+                        <li class="text-gray-400">ICICI Bank Answers</li>
+                        <li class="text-gray-400">Safe Banking</li>
+                        <li class="text-gray-400">RBI Kehta Hai</li>
+                        <li class="text-gray-400">RBI: Beware of Fictitious Offers</li>
+                        <li class="text-gray-400">Money Transfer to India</li>
+                        <li class="text-gray-400">Internet Banking</li>
+                        <li class="text-gray-400">Mobile Banking</li> 
+                    </ul>
+                    <ul class="list-unstyled">
+                        <li>AWARDS</li>
+                        <li class="text-gray-400">2021</li>
+                        <li class="text-gray-400">2020</li>
+                        <li class="text-gray-400">2019</li>
+                    </ul>
+                </div>
+                <div class="col hidden md:block">
+                  <ul class="list-unstyled">
+                      <li>POPULAR PRODUCTS</li>
+                      <li class="text-gray-400">Savings Accounts</li>
+                      <li class="text-gray-400">Women's Accounts</li>
+                      <li class="text-gray-400">Senior Citizen Account</li>
+                      <li class="text-gray-400">Current Accounts</li>
+                      <li class="text-gray-400">Credit Cards</li>
+                      <li class="text-gray-400">Home Loan</li>
+                      <li class="text-gray-400">Personal Loan</li>
+                      <li class="text-gray-400">Car Loan</li>
+                      <li class="text-gray-400">Gold Loan</li> 
+                      <li class="text-gray-400">Fixed Deposit</li>
+                      <li class="text-gray-400">Recurring Deposit</li>
+                      <li class="text-gray-400">iWish Goal based savings</li>
+                      <li class="text-gray-400">Life Insurance</li>
+                      <li class="text-gray-400">General Insurance</li>
+                  </ul>
+              </div>
+              <div class="col hidden md:block">
+                  <ul class="list-unstyled">
+                      <li>CALCULATORS</li>
+                      <li class="text-gray-400">Personal Loan EMI Calculator </li>
+                      <li class="text-gray-400">Car Loan EMI Calculator</li>
+                      <li class="text-gray-400">Two Wheeler EMI Calculator</li>
+                      <li class="text-gray-400">Home Loan EMI Calculator</li>
+                      <li class="text-gray-400">Recurring Deposit EMI Calculator</li>
+                      <li class="text-gray-400">Fixed Deposit EMI Calculator</li>
+                      <li class="text-gray-400">More Calculators</li>
+                  </ul>
+              </div>
+              <div class="col hidden md:block">
+                  <ul class="list-unstyled">
+                      <li>OTHERS</li>
+                      <li class="text-gray-400">Customer Care</li>
+                      <li class="text-gray-400">List of Unclaimed Accounts</li>
+                      <li class="text-gray-400">Form Center</li>
+                      <li class="text-gray-400">Notice Board</li>
+                      <li class="text-gray-400">News Room</li>
+                      <li class="text-gray-400">Online Assist</li>
+                      <li class="text-gray-400">Compliments and Complaints</li>
+                      <li class="text-gray-400">Site map</li>
+                      <li class="text-gray-400">About Us</li>
+                  </ul>
+                  <ul class="list-unstyled">
+                      <li>INITIATIVES</li>
+                      <li class="text-gray-400">Debt Service</li>
+                      <li class="text-gray-400">Blogs</li>
+                  </ul>
+                  
+
+
+              </div>
+              <div class="col">
+                  <ul class="list-unstyled">
+                      <li>RATES AND CHARGES</li>
+                      <li class="text-gray-400">Interest Rates</li>
+                      <li class="text-gray-400">Gold Rate Today</li>
+                      <li class="text-gray-400">Service Charges and Fees</li>
+                      <li class="mt-3">GET SOCIAL</li>
+                      <li class="mb-3">
+                          <em class="fa fa-facebook"></em>
+                          <em class="fa fa-twitter"></em>
+                          <em class="fa fa-instagram"></em>
+                          <em class="fa fa-youtube"></em>
+                      </li>
+                      <li class="mb-2">CUSTOMER CARE NUMBERS</li>
+                      <li class="text-gray-400">Personal Banking</li>
+                      <li class="mb-2">1860 120 7777</li>
+                      <li class="text-gray-400">Wealth / Private Banking</li>
+                      <li class="mb-2">1800 103 8181</li>
+                      <li class="text-gray-400">Corporate / Business/ Retail Institutional Banking</li>
+                      <li class="mb-2">1860 120 6699</li>
+                      <li class="text-gray-400">ICICI Bank Credit Card Number</li>
+                      <li class="">1800 1020 1239</li>
+                  </ul>
+              </div>
+            </div>
+        </div>
+
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+</body>
+</html>

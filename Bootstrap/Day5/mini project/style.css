@@ -1,0 +1,73 @@
+#security{
+  background-color:antiquewhite;
+}
+
+#notice{
+  background-color:darkblue;
+  
+}
+#creditcard{
+  background-color: antiquewhite;
+}
+#selectcard{
+  background-color: antiquewhite;
+}
+#offermain{
+  background-color:antiquewhite;
+}
+#photomove{
+  height: 300px;
+}
+#smallimg{
+  background-color:antiquewhite;
+  height: fit-content;
+  border-radius: 50%;
+  padding: 10px;
+}
+#qr{
+  background-color: antiquewhite;
+}
+#thirdnav{
+  background-color: antiquewhite;
+}
+
+#entername{
+  outline: 0;
+  border-width:0 0 2px;
+  border-color:coral;
+  margin:5px;
+ 
+
+  background: transparent;
+  color:white;
+}
+#city{
+  
+    outline: 0;
+    border-width:0 0 2px;
+    
+    margin:5px;
+   
+  
+    background: transparent;
+    
+ 
+}
+@media (min-width:992px){
+  #overheader{
+    margin-top: -300px;
+   margin-bottom: 27px;
+  }
+  #photomove{
+    height: 600px;
+  }
+  #offercard{
+    width: 25%;
+  }
+  #intrest{
+    width: 50%;
+  }
+  header{
+    margin-top: 140px;
+  }
+}

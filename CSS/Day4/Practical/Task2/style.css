@@ -1,0 +1,57 @@
+
+.container1{
+    padding: 20px;
+}
+
+h1{
+    border: 2px solid blue;
+}
+p{
+    border: 2px solid blue;
+}
+@media only screen and (max-width:600px){
+    p{
+       
+        background-color:cadetblue;
+        
+    }
+
+}
+@media only screen and (min-width:600px){
+    p{
+       
+        background-color:brown;
+        
+    }
+
+}
+
+
+@media only screen and (min-width:768px){
+    p{
+       
+        background-color:blueviolet;
+        
+    }
+
+}
+@media only screen and (min-width:992px){
+    p{
+       
+        background-color:black;
+        color: white;
+    }
+
+}
+@media only screen and (min-width:1200px){
+    p{
+       
+        background-color: aqua;
+    }
+
+}
+
+
+
+
+

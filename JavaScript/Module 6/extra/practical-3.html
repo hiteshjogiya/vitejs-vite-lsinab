@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="h1" id="hed" >hitesh</h1>
+    
+    <form action="" onsubmit="return myvalidation()" name="myform">
+        <div id="formdiv">
+            <label for="">name</label>
+            <input type="text" name="myvalue" disabled placeholder="h">
+            <button type="submit">submit</button>
+        </div>
+    </form>
+    <div id="outerprop" style="border:2px solid red">
+        <p id="prop" style="border:2px solid blue">eventPropogation</p>
+    </div>
+    <button type="button" id="btn1">click</button>
+    <a href="#">1</a>
+    <a href="#">2</a>
+    <a href="#">3</a>
+    <a href="#">4</a>
+    <p id="p1">lorem</p>
+    <p id="p1"> <a href="#">5</a>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, blanditiis!</p>
+    <p id="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, blanditiis!</p>
+    <p id="p3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, blanditiis!</p>
+    <div id="learnnode">
+        <p id="p4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, blanditiis!</p>
+        <p id="p5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, blanditiis!</p>
+    </div>
+    <div id="newnode"></div>
+    <script>
+        // var a = document.getElementById('btn1')
+        // a.addEventListener("click",function(){
+        //     alert('clicked');
+        // })
+        // var b = document.querySelector("p")
+        
+        // console.log(b)
+
+        var s = "Lorem ipsum dolor sit amet sit consectetur adipisicing elit. Architecto, blanditiis!";
+        var str2 = "     hitesh      ";
+        var str3 = 1;
+        var str4 ="jogiya";
+        //.................................................string..............................................//
+        //var news = s.slice(6,11)
+        //var news = s.slice(-12,-1)
+       // var news = s.substring(0,12);
+       // var news = s.substr(12,5);
+        //var news = s.replace("Lorem","hitesh");
+        //console.log(str2)
+        //console.log(str2.trim());
+       // var news = str3.padStart(7,0);
+        //var news = str3.padEnd(7,0);
+        //var news = str3.charAt(2)
+       // var news = str3.charCodeAt(2)
+       // var news = str2.concat(str4)
+        //var news = s.startsWith('ipsum',6);
+        //var news = s.endsWith("ipsum",11)
+       // var news = s.includes('sit');
+      // var news = s.indexOf("m",5)
+      // var news = s.lastIndexOf("sum")
+     // var news = s.match("m");
+     //var news = s.match(/m/g);
+     var people = {
+         name:"hitesh",
+         lastname:"jogiya",
+         fullname:function(){
+            return this.name+" "+this.lastname;
+         }
+     }
+     function job(name,job,title){
+         this.name = name;
+         this.job = job;
+         this.title = title;
+
+
+     }
+     job.prototype.age = 21;
+     var myobj = new job("hitesh",'software','trainee');
+    console.log(myobj.age)
+     //var news = s.search("ipsum")
+     // console.log(news)
+    var news = str2.repeat(2);
+     console.log(news);
+     //......................................................Number..............................................................//
+     var num1 = 523;
+     //var nummethods = num1.toExponential(2)
+     //var nummethods = num1.toFixed(2)
+    var nummethods = num1.toPrecision(5)
+
+     console.log(typeof nummethods.valueOf());
+
+    // var data = document.getElementsByTagName("p")[2]
+    //var data = document.querySelector("p")
+    //var data = document.body.innerHTML
+    //var data = document.documentElement.innerHTML
+    //var data = document.head.innerHTML
+   // var data = document.title="hello world"
+   //var data = document.scripts
+   //var data = document.forms.length
+   var data = document.images.length
+     console.log(data)
+     function myvalidation(){
+         let data = document.forms["myform"]["myvalue"].value;
+         if(data == ""){
+             alert("enter data");
+             return false;
+         }
+     }
+     document.getElementById("btn1").addEventListener("mouseenter",myevent);
+     function myevent(){
+         alert("outer")
+     }
+     document.getElementById("btn1").addEventListener("mouseenter",myevent2);
+     function myevent2(){
+         alert("inner")
+     }
+
+     document.getElementById('prop').addEventListener("click",myevent2,true)
+     document.getElementById('outerprop').addEventListener("click",myevent,true)
+     document.getElementById('prop').removeEventListener("click",myevent2,true)
+   document.getElementById("newnode").innerHTML= document.getElementById("learnnode").firstChild.nodeValue;
+    //console.log(nod1)
+    </script>
+</body>
+</html>
